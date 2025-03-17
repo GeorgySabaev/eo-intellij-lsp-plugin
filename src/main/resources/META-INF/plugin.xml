@@ -35,13 +35,13 @@ see also jetbrains documentation: https://plugins.jetbrains.com/docs/intellij/pl
 
         <!-- needed for completion -->
         <completion.contributor implementationClass="org.wso2.lsp4intellij.contributors.LSPCompletionContributor"
-                                id="org.wso2.lsp4intellij.contributors.LSPCompletionContributor" language="YOUR_LANGUAGE_ID"/>
+                                id="org.wso2.lsp4intellij.contributors.LSPCompletionContributor" language="any"/>
         <!-- needed for completion as well as signature help -->
         <typedHandler implementation="org.wso2.lsp4intellij.listeners.LSPTypedHandler"
                       id="LSPTypedHandler"/>
 
         <!-- needed for code diagnostics -->
-        <externalAnnotator id="LSPAnnotator" language="YOUR_LANGUAGE_ID"
+        <externalAnnotator id="LSPAnnotator" language=""
                            implementationClass="org.wso2.lsp4intellij.contributors.annotator.LSPAnnotator"/>
 
         <!-- needed for Workspace Symbols -->
@@ -53,7 +53,7 @@ see also jetbrains documentation: https://plugins.jetbrains.com/docs/intellij/pl
         <renamePsiElementProcessor implementation="org.wso2.lsp4intellij.contributors.rename.LSPRenameProcessor" id="LSPRenameProcessor" order="first"/>
 
         <!-- needed for folding support -->
-        <lang.foldingBuilder language="YOUR_LANGUAGE_ID" implementationClass="org.wso2.lsp4intellij.contributors.LSPFoldingRangeProvider" id="LSPFoldingRangeProvider" order="first" />
+        <lang.foldingBuilder language="" implementationClass="org.wso2.lsp4intellij.contributors.LSPFoldingRangeProvider" id="LSPFoldingRangeProvider" order="first" />
     </extensions>
 
     <actions>

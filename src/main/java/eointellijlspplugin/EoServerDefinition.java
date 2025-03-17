@@ -1,8 +1,6 @@
 package eointellijlspplugin;
 
-import org.eclipse.lsp4j.InitializeParams;
-import org.eclipse.lsp4j.ClientInfo;
-import org.eclipse.lsp4j.SemanticTokensCapabilities;
+import org.eclipse.lsp4j.*;
 import org.wso2.lsp4intellij.client.languageserver.serverdefinition.RawCommandServerDefinition;
 
 import java.util.List;
@@ -58,7 +56,28 @@ public class EoServerDefinition extends RawCommandServerDefinition {
                 "relative"
         ));
         textDocument.setSemanticTokens(semanticTokensCapabilities);
-        capabilities.setTextDocument(textDocument);
-        params.setCapabilities(capabilities);
+
+        textDocument.getCodeAction().getCodeActionLiteralSupport().getCodeActionKind().setValueSet(List.of(
+                "",
+                "quickfix",
+                "refactor",
+                "refactor.extract",
+                "refactor.inline",
+                "refactor.rewrite",
+                "source",
+                "source.organizeImports"
+                )
+        );
+        var publishDiagnosticsCapabilities = new PublishDiagnosticsCapabilities();
+        publishDiagnosticsCapabilities.setDataSupport(true);
+        publishDiagnosticsCapabilities.setRelatedInformation(true);
+        publishDiagnosticsCapabilities.setVersionSupport(false);
+        var diagnosticsTagSupport = new DiagnosticsTagSupport();
+        diagnosticsTagSupport.setValueSet(List.of(
+                DiagnosticTag.forValue(1),
+                DiagnosticTag.forValue(2)
+                ));
+        publishDiagnosticsCapabilities.setTagSupport(diagnosticsTagSupport);
+        textDocument.setPublishDiagnostics(publishDiagnosticsCapabilities);
     }
 }
