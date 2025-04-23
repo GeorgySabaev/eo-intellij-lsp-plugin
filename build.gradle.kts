@@ -40,6 +40,21 @@ tasks {
         untilBuild.set("243.*")
     }
 
+    prepareSandbox {
+        providers.exec {
+            commandLine("npm", "install", "--prefix", "eo-lsp-server")
+        }.result.get()
+        providers.exec {
+            commandLine("npm", "run", "build", "--prefix", "eo-lsp-server")
+        }.result.get()
+        providers.exec {
+            commandLine("npm", "run", "package", "--prefix", "eo-lsp-server")
+        }.result.get()
+        from("${rootProject.projectDir}/eo-lsp-server/bin") {
+            into("${intellij.pluginName.get()}/")
+        }
+    }
+
     signPlugin {
         certificateChain.set(System.getenv("CERTIFICATE_CHAIN"))
         privateKey.set(System.getenv("PRIVATE_KEY"))

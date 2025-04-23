@@ -1,0 +1,3 @@
+[submodule "eo-lsp-server"]
+	path = eo-lsp-server
+	url = https://github.com/GeorgySabaev/eo-lsp-server
