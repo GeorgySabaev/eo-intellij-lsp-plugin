@@ -10,6 +10,7 @@ see also jetbrains documentation: https://plugins.jetbrains.com/docs/intellij/pl
     <!-- Product and plugin compatibility requirements -->
     <!-- https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.plugins.textmate</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- register a preloading activity. You need to init IntellijLanguageClient with your config, see readme -->
@@ -54,6 +55,8 @@ see also jetbrains documentation: https://plugins.jetbrains.com/docs/intellij/pl
 
         <!-- needed for folding support -->
         <lang.foldingBuilder language="" implementationClass="org.wso2.lsp4intellij.contributors.LSPFoldingRangeProvider" id="LSPFoldingRangeProvider" order="first" />
+
+        <textmate.bundleProvider implementation="eointellijlspplugin.EoTextMateBundleProvider"/>
     </extensions>
 
     <actions>

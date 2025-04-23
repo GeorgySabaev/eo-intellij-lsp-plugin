@@ -1,0 +1,27 @@
+{
+  "name": "eo",
+  "version": "0.0.0",
+  "description": "eo",
+  "license": "MIT",
+  "contributes": {
+    "languages": [
+      {
+        "id": "eo",
+        "aliases": [
+          "EO",
+          "eo"
+        ],
+        "extensions": [
+          ".eo"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "eo",
+        "scopeName": "source.eo",
+        "path": "./eo.tmLanguage.json"
+      }
+    ]
+  }
+}
