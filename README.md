@@ -27,13 +27,17 @@ Fork repository, make changes, send us a pull request. We will review your chang
 To avoid frustration, before sending us your pull request please run full gradle build:
 
 ```
-gradle build
+./gradlew build
 ```
 
 You will need Gradle, Maven, Java 17+, Node 20 and NPM installed.
 
 ## Try it out
 
-When editing the source code in IntelliJ IDEA, it's often useful to see your changes in action. You can try the plugin out directly in the IDE via the `runide` (`Run plugin`) gradle run configuration.
+When editing the source code in IntelliJ IDEA, it's often useful to see your changes in action. You can try the plugin out directly in the IDE via the `runide` (`Run plugin`) gradle run configuration:
 
-This will open a new IDEA window with your build of the plugin installed and enabled. 
+```
+./gradlew runIde
+```
+
+This will open a new IDEA window with your build of the plugin installed and enabled.
