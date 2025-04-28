@@ -41,15 +41,15 @@ tasks {
     }
 
     prepareSandbox {
-        providers.exec {
+        exec {
             commandLine("npm", "install", "--prefix", "eo-lsp-server")
-        }.result.get()
-        providers.exec {
+        }
+        exec {
             commandLine("npm", "run", "build", "--prefix", "eo-lsp-server")
-        }.result.get()
-        providers.exec {
+        }
+        exec {
             commandLine("npm", "run", "package", "--prefix", "eo-lsp-server")
-        }.result.get()
+        }
         from("${rootProject.projectDir}/eo-lsp-server/bin") {
             into("${intellij.pluginName.get()}/")
         }
