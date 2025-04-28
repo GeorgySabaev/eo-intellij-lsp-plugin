@@ -13,7 +13,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.ballerina-platform:lsp4intellij:0.96.2")
+    implementation("com.github.ballerina-platform:lsp4intellij:0.96.1")
 }
 
 // Configure Gradle IntelliJ Plugin
