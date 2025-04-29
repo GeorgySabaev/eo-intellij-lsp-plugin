@@ -41,14 +41,29 @@ tasks {
     }
 
     prepareSandbox {
-        exec {
-            commandLine("npm", "install", "--prefix", "eo-lsp-server")
+        var install_command = arrayListOf<String>("npm", "install", "--prefix", "eo-lsp-server")
+        var install_res = providers.exec {
+            commandLine(install_command)
+            isIgnoreExitValue=true
         }
-        exec {
-            commandLine("npm", "run", "build", "--prefix", "eo-lsp-server")
+        if (install_res.result.get().exitValue != 0) {
+            error("Error while running $install_command\n" + install_res.standardError.asText.get())
         }
-        exec {
-            commandLine("npm", "run", "package", "--prefix", "eo-lsp-server")
+        var build_command = arrayListOf<String>("npm", "run", "build", "--prefix", "eo-lsp-server")
+        var build_res = providers.exec {
+            commandLine(build_command)
+            isIgnoreExitValue=true
+        }
+        if (build_res.result.get().exitValue != 0) {
+            error("Error while running $build_command\n" + build_res.standardError.asText.get())
+        }
+        var package_command = arrayListOf<String>("npm", "run", "package", "--prefix", "eo-lsp-server")
+        var package_res = providers.exec {
+            commandLine(package_command)
+            isIgnoreExitValue=true
+        }
+        if (package_res.result.get().exitValue != 0) {
+            error("Error while running $package_command\n" + package_res.standardError.asText.get())
         }
         from("${rootProject.projectDir}/eo-lsp-server/bin") {
             into("${intellij.pluginName.get()}/")
