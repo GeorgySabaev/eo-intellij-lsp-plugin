@@ -7,7 +7,7 @@ Install it from source through the following steps:
 1. Clone the repository with the `--recurse-submodules` flag
 2. Build the project (from project root):
     ```
-    ./gradlew build
+    ./gradlew buildPlugin
     ```
    (You will need Gradle, Maven, Java 17+, Node 20 and NPM installed.)
 3. In your IDE, open the plugin window and install the plugin from disk 
@@ -35,7 +35,7 @@ Fork repository, make changes, send us a pull request. We will review your chang
 To avoid frustration, before sending us your pull request please run full gradle build:
 
 ```
-./gradlew build
+./gradlew buildPlugin
 ```
 
 You will need Gradle, Maven, Java 17+, Node 20 and NPM installed.
