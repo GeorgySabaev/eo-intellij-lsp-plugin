@@ -18,9 +18,10 @@ repositories {
 dependencies {
     intellijPlatform {
         bundledPlugin("org.jetbrains.plugins.textmate")
+        plugin("com.redhat.devtools.lsp4ij:0.12.0")
         create(providers.gradleProperty("platformType"), providers.gradleProperty("platformVersion"))
     }
-    implementation("com.github.ballerina-platform:lsp4intellij:0.96.1")
+     // implementation("com.github.ballerina-platform:lsp4intellij:0.96.1")
 }
 
 intellijPlatform {
@@ -41,7 +42,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("241")
-        untilBuild.set("243.*")
+        untilBuild.set("251.*")
     }
 
     prepareSandbox {
