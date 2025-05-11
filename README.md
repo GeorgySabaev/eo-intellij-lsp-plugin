@@ -2,7 +2,17 @@
 
 This is an Intellij plugin for EOLANG that uses the EOLANG LSP server.
 
-Install it from the JetBrains marketplace [TODO: publish it there].
+Install it from source through the following steps:
+
+1. Clone the repository with the `--recurse-submodules` flag
+2. Build the project:
+    ```
+    ./gradlew build
+    ```
+   (You will need Gradle, Maven, Java 17+, Node 20 and NPM installed.)
+3. In your IDE, open the plugin window and install the plugin from disk 
+
+   (build output is in `build/distributions/eo-intellij-lsp-plugin-1.0-SNAPSHOT.zip`)
 
 ## Structure
 
@@ -10,9 +20,7 @@ The project is divided into two parts: the client and the server.
 
 The client is written in Java, and is located in src/main.
 
-The server is written in Typescript. It is a submodule located in `eo-lsp-server`, and is published as a standalone repository in https://github.com/GeorgySabaev/eo-lsp-server **[TODO: move to objectionary]**
-
-We use Rultor for publishing **[TODO: set up Rultor]**
+The server is written in Typescript. It is a submodule located in `eo-lsp-server`, and is published as a standalone repository in https://github.com/GeorgySabaev/eo-lsp-server
 
 ## How to contribute
 
@@ -31,13 +39,3 @@ To avoid frustration, before sending us your pull request please run full gradle
 ```
 
 You will need Gradle, Maven, Java 17+, Node 20 and NPM installed.
-
-## Try it out
-
-When editing the source code in IntelliJ IDEA, it's often useful to see your changes in action. You can try the plugin out directly in the IDE via the `runide` (`Run plugin`) gradle run configuration:
-
-```
-./gradlew runIde
-```
-
-This will open a new IDEA window with your build of the plugin installed and enabled.
