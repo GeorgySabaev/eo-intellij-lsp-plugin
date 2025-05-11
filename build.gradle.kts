@@ -1,7 +1,7 @@
 plugins {
     id("java")
     id("org.jetbrains.kotlin.jvm") version "1.9.25"
-    id("org.jetbrains.intellij") version "1.17.3"
+    id("org.jetbrains.intellij.platform") version "2.5.0"
 }
 
 group = "com.example"
@@ -10,21 +10,26 @@ version = "1.0-SNAPSHOT"
 repositories {
     mavenCentral()
     maven { url = uri("https://jitpack.io") }
+    intellijPlatform {
+        defaultRepositories()
+    }
 }
 
 dependencies {
-    implementation("com.github.ballerina-platform:lsp4intellij:0.96.1")
+    intellijPlatform {
+        bundledPlugin("org.jetbrains.plugins.textmate")
+        plugin("com.redhat.devtools.lsp4ij:0.12.0")
+        create(providers.gradleProperty("platformType"), providers.gradleProperty("platformVersion"))
+    }
+     // implementation("com.github.ballerina-platform:lsp4intellij:0.96.1")
 }
 
-// Configure Gradle IntelliJ Plugin
-// Read more: https://plugins.jetbrains.com/docs/intellij/tools-gradle-intellij-plugin.html
-intellij {
-    version.set("2024.1.7")
-    type.set("IC") // Target IDE Platform
-
-    plugins.set(listOf("org.jetbrains.plugins.textmate"))
+intellijPlatform {
+    pluginConfiguration {
+        name = providers.gradleProperty("pluginName")
+        version = providers.gradleProperty("pluginVersion")
+    }
 }
-
 tasks {
     // Set the JVM compatibility versions
     withType<JavaCompile> {
@@ -37,7 +42,7 @@ tasks {
 
     patchPluginXml {
         sinceBuild.set("241")
-        untilBuild.set("243.*")
+        untilBuild.set("251.*")
     }
 
     prepareSandbox {
@@ -66,7 +71,7 @@ tasks {
             error("Error while running $package_command\n" + package_res.standardError.asText.get())
         }
         from("${rootProject.projectDir}/eo-lsp-server/bin") {
-            into("${intellij.pluginName.get()}/")
+            into("${intellijPlatform.pluginConfiguration.name.get()}/")
         }
     }
 
