@@ -5,7 +5,7 @@ This is an Intellij plugin for EOLANG that uses the EOLANG LSP server.
 Install it from source through the following steps:
 
 1. Clone the repository with the `--recurse-submodules` flag
-2. Build the project:
+2. Build the project (from project root):
     ```
     ./gradlew build
     ```
