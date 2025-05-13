@@ -28,7 +28,7 @@ public final class EoFileType extends LanguageFileType {
     @NotNull
     @Override
     public String getDefaultExtension() {
-        return "EO";
+        return "eo";
     }
 
     @Override

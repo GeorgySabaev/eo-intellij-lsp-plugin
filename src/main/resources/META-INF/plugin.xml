@@ -18,7 +18,8 @@ see also jetbrains documentation: https://plugins.jetbrains.com/docs/intellij/pl
                     implementationClass="eointellijlspplugin.EoFileType"
                     fieldName="INSTANCE"
                     language="Eo"
-                    extensions="eo"/>
+                    extensions="eo"
+                    patterns="*.eo"/>
     </extensions>
     <extensions defaultExtensionNs="com.redhat.devtools.lsp4ij">
         <server id="eoLanguageServer"
@@ -30,6 +31,8 @@ see also jetbrains documentation: https://plugins.jetbrains.com/docs/intellij/pl
             </description>
         </server>
         <languageMapping language="Eo"
+                         serverId="eoLanguageServer"/>
+        <fileTypeMapping fileType="EO file"
                          serverId="eoLanguageServer"/>
     </extensions>
 </idea-plugin>

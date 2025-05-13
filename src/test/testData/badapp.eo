@@ -1,0 +1,4 @@
+# Just prints hello.
+[<error descr="no viable alternative at input '# Just prints hello.\n[args.'">args</error>...] > badapp
+  QQ.io.stdout > @
+    "Hello, world!\n"
