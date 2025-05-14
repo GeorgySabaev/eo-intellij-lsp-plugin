@@ -24,7 +24,8 @@ public class EoLanguageServer extends OSProcessStreamConnectionProvider {
     public EoLanguageServer() {
         var pluginPath = PluginManagerCore.getPlugin(PluginId.getId("com.example.eo-intellij-lsp-plugin")).getPluginPath();
         var serverPath = pluginPath.resolve(getBinaryName());
-        GeneralCommandLine commandLine = new GeneralCommandLine(String.valueOf(serverPath), "--stdio");
+//        GeneralCommandLine commandLine = new GeneralCommandLine(String.valueOf(serverPath), "--stdio");
+        GeneralCommandLine commandLine = new GeneralCommandLine("echo", "bibibi");
         super.setCommandLine(commandLine);
     }
 }

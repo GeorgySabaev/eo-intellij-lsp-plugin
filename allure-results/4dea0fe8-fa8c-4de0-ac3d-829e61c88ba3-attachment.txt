@@ -1,0 +1,661 @@
+2025-05-14 15:05:04,139 [      6]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2025-05-14 15:05:04,200 [     67]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 24 ms
+2025-05-14 15:05:04,233 [    100]   INFO - #c.i.p.i.b.AppStarter - IDE: IntelliJ IDEA (build #IC-242.20224.300, Tue, 6 Aug 2024 20:58:00 GMT)
+2025-05-14 15:05:04,234 [    101]   INFO - #c.i.p.i.b.AppStarter - OS: Linux (6.8.0-59-generic)
+2025-05-14 15:05:04,234 [    101]   INFO - #c.i.p.i.b.AppStarter - JRE: 21.0.3+13-b509.4, amd64 (JetBrains s.r.o.)
+2025-05-14 15:05:04,235 [    102]   INFO - #c.i.p.i.b.AppStarter - JVM: 21.0.3+13-b509.4 (OpenJDK 64-Bit Server VM)
+2025-05-14 15:05:04,240 [    107]   INFO - #c.i.p.i.b.AppStarter - PID: 180839
+2025-05-14 15:05:04,240 [    107]   INFO - #c.i.p.i.b.AppStarter - desktop: null
+2025-05-14 15:05:04,529 [    396]   INFO - #c.i.p.i.b.AppStarter - toolkit: sun.awt.X11.XToolkit
+2025-05-14 15:05:04,535 [    402]   INFO - #c.i.p.i.b.AppStarter - JVM options: [-XX:ErrorFile=/home/gasabaev/java_error_in_idea_%p.log, -XX:HeapDumpPath=/home/gasabaev/java_error_in_idea_.hprof, -Xms128m, -Xmx2048m, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:+IgnoreUnrecognizedVMOptions, -ea, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -Djbr.catch.SIGABRT=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.attach.allowAttachSelf=true, -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -XX:CICompilerCount=2, -XX:ReservedCodeCacheSize=512m, -XX:+UnlockDiagnosticVMOptions, -XX:TieredOldPercentage=100000, -Dsun.tools.attach.tmp.only=true, -Dawt.lock.fair=true, -Dij.load.shell.env=false, -Dide.instant.shutdown=false, -Dfeature.usage.event.log.send.on.ide.close=false, -Dlinux.native.menu.force.disable=true, -Djdk.gtk.verbose=true, -Djdk.gtk.version=2, -Dvcs.log.index.enable=false, -Dide.slow.operations.assertion=false, -DintegrationTests.profiler=async, -Didea.config.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/config, -Didea.system.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/system, -Didea.plugins.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/plugins, -Didea.local.statistics.without.report=true, -Didea.updates.url=http://127.0.0.1, -Dkotest.assertions.collection.enumerate.size=2147483647, -Djb.consents.confirmation.enabled=false, -Djb.privacy.policy.text=<!--999.999-->, -Djb.privacy.policy.ai.assistant.text=<!--999.999-->, -Dwriterside.eula.reviewed.and.accepted=true, -Dide.newUsersOnboarding=false, -Dfreeze.reporter.profiling=false, -Didea.fatal.error.notification=true, -Didea.is.integration.test=true, -Dide.performance.screenshot=heartbeat, -XX:ErrorFile=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log/jvm-crash/java_error_in_idea_%p.log, -XX:HeapDumpPath=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log/heap-dump/heap-dump.hprof, -Xlog:gc*:file=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/reports/gcLog.log, -Didea.diagnostic.opentelemetry.metrics.max-files-to-keep=120, -Dfull.scanning.on.startup.can.be.skipped=false, -Dsnapshots.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/snapshots, -Djava.rmi.server.hostname=127.0.0.1, -Dcom.sun.management.jmxremote=true, -Dcom.sun.management.jmxremote.port=7777, -Dcom.sun.management.jmxremote.authenticate=false, -Dcom.sun.management.jmxremote.ssl=false, -Dcom.sun.management.jmxremote.serial.filter.pattern='java.**;javax.**;com.intellij.driver.model.**', -Dexpose.ui.hierarchy.url=true, -Dmemory.snapshots.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log, -Didea.diagnostic.opentelemetry.file=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log/opentelemetry.json, -Didea.log.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log, -Dtestscript.filename=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/system/testExample.text, -Dtestscript.must.exist.process.with.non.success.code.on.ide.error=true, -Djb.vmOptionsFile=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=IdeaIC2024.2, -Djna.boot.library.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/lib/jna/amd64, -Dpty4j.preferred.native.folder=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Dintellij.platform.runtime.repository.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/modules/module-descriptors.jar, -Didea.platform.prefix=Idea, -Dsplash=true, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED, -Xbootclasspath/a:/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/lib/nio-fs.jar:/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/lib/nio-fs.jar:/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/lib/nio-fs.jar, -Dawt.toolkit.name=XToolkit]
+2025-05-14 15:05:04,539 [    406]   INFO - #c.i.p.i.b.AppStarter - args: /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world
+2025-05-14 15:05:04,540 [    407]   INFO - #c.i.p.i.b.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2025-05-14 15:05:04,540 [    407]   INFO - #c.i.p.i.b.AppStarter - boot library path: /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/jbr/lib
+2025-05-14 15:05:04,548 [    415]   INFO - #c.i.p.i.b.AppStarter - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/config
+    idea.system.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/system
+    idea.plugins.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/plugins
+    idea.log.path=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log
+2025-05-14 15:05:04,554 [    421]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 20; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@60456c13[Running, parallelism = 19, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@7df09610
+2025-05-14 15:05:04,816 [    683]   INFO - STDERR - WARNING: the GTK 2 library is deprecated and its support will be removed in a future release
+2025-05-14 15:05:04,894 [    761]   INFO - #c.i.p.i.b.AppStarter - Importing configs to /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/config
+2025-05-14 15:05:04,896 [    763]   INFO - #c.i.p.i.b.AppStarter - Custom migration option: properties intellij.first.ide.session
+2025-05-14 15:05:04,896 [    763]   INFO - #c.i.p.i.b.AppStarter - Enabling system properties after restart: [intellij.first.ide.session]
+2025-05-14 15:05:04,935 [    802]   INFO - STDERR - Warning: Not allowed as a service: java.awt.Window.CustomTitleBarPeer
+2025-05-14 15:05:04,938 [    805]   INFO - STDERR - 	at com.jetbrains.JBR$WindowDecorations__Holder.<clinit>(JBR.java:642)
+2025-05-14 15:05:04,938 [    805]   INFO - STDERR - 	at com.jetbrains.JBR.getWindowDecorations(JBR.java:662)
+2025-05-14 15:05:04,938 [    805]   INFO - STDERR - 	at com.intellij.platform.ide.bootstrap.StartupUtil$startApplication$3.invokeSuspend(startup.kt:171)
+2025-05-14 15:05:04,938 [    805]   INFO - STDERR - 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+2025-05-14 15:05:04,939 [    806]   INFO - STDERR - 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+2025-05-14 15:05:04,939 [    806]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+2025-05-14 15:05:04,939 [    806]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+2025-05-14 15:05:04,939 [    806]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+2025-05-14 15:05:04,939 [    806]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+2025-05-14 15:05:04,939 [    806]   INFO - STDERR - Warning: Service not supported: com.jetbrains.WindowDecorations
+2025-05-14 15:05:04,940 [    807]   INFO - STDERR - 	at com.jetbrains.JBR$WindowDecorations__Holder.<clinit>(JBR.java:642)
+2025-05-14 15:05:04,940 [    807]   INFO - STDERR - 	at com.jetbrains.JBR.getWindowDecorations(JBR.java:662)
+2025-05-14 15:05:04,940 [    807]   INFO - STDERR - 	at com.intellij.platform.ide.bootstrap.StartupUtil$startApplication$3.invokeSuspend(startup.kt:171)
+2025-05-14 15:05:04,940 [    807]   INFO - STDERR - 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+2025-05-14 15:05:04,940 [    807]   INFO - STDERR - 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+2025-05-14 15:05:04,940 [    807]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+2025-05-14 15:05:04,940 [    807]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+2025-05-14 15:05:04,940 [    807]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+2025-05-14 15:05:04,941 [    808]   INFO - STDERR - 	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+2025-05-14 15:05:04,973 [    840]   INFO - #c.i.i.p.PluginManager - Using broken plugins file from IDE distribution
+2025-05-14 15:05:04,974 [    841]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/plugins/Groovy, version=242.20224.300, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-groovy.xml
+2025-05-14 15:05:04,974 [    841]   INFO - #c.i.i.p.PluginManager - Plugin PluginDescriptor(name=Groovy, id=org.intellij.groovy, descriptorPath=plugin.xml, path=~/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/plugins/Groovy, version=242.20224.300, package=org.jetbrains.plugins.groovy, isBundled=true) misses optional descriptor duplicates-detection-groovy.xml
+2025-05-14 15:05:05,052 [    919]   INFO - #c.i.i.p.PluginManager - Module intellij.ml.inline.completion.terraform is not enabled because dependency org.intellij.plugins.hcl is not available
+Module intellij.ml.inline.completion.ruby is not enabled because dependency org.jetbrains.plugins.ruby is not available
+Module intellij.ml.inline.completion.python.jupyter is not enabled because dependency intellij.notebooks.core is not available
+Module intellij.ml.inline.completion.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.ml.inline.completion.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.ml.inline.completion.js is not enabled because dependency JavaScript is not available
+Module intellij.ml.inline.completion.js.vue is not enabled because dependency intellij.ml.inline.completion.js is not available
+Module intellij.ml.inline.completion.js.svelte is not enabled because dependency intellij.ml.inline.completion.js is not available
+Module intellij.ml.inline.completion.js.astro is not enabled because dependency intellij.ml.inline.completion.js is not available
+Module intellij.ml.inline.completion.go is not enabled because dependency org.jetbrains.plugins.go is not available
+Module intellij.ml.inline.completion.css.sass is not enabled because dependency intellij.fullLine.css is not available
+Module intellij.ml.inline.completion.css.postcss is not enabled because dependency intellij.fullLine.css is not available
+Module intellij.ml.inline.completion.css.less is not enabled because dependency intellij.fullLine.css is not available
+Module intellij.ml.inline.completion.css is not enabled because dependency com.intellij.css is not available
+Module intellij.ml.inline.completion.csharp is not enabled because dependency rider.intellij.plugin.appender is not available
+Module intellij.ml.inline.completion.cppNova is not enabled because dependency org.jetbrains.plugins.clion.radler is not available
+Module intellij.ml.inline.completion.cpp is not enabled because dependency com.intellij.modules.clion is not available
+Module intellij.sh.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.searchEverywhereMl.semantics.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.groovy/ant is not enabled because dependency AntSupport is not available
+Module intellij.llmInstaller.pycharm.community is not enabled because dependency intellij.pycharm.community.ide.impl.promotion is not available
+Module intellij.qodana.jvm.swagger is not enabled because dependency com.intellij.swagger is not available
+Module intellij.qodana.python is not enabled because dependency intellij.python is not available
+Module intellij.qodana.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.qodana.js is not enabled because dependency JavaScript is not available
+Module intellij.qodana.inspectionKts.js is not enabled because dependency JavaScript is not available
+Module intellij.qodana.go is not enabled because dependency intellij.go.coverage is not available
+Module intellij.execution.process.elevation.backend.split is not enabled because dependency intellij.execution.process.elevation is not available
+Module intellij.packageChecker.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.packageChecker.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.packageChecker.javascript is not enabled because dependency JavaScript is not available
+Module intellij.packageChecker.go is not enabled because dependency org.jetbrains.plugins.go is not available
+2025-05-14 15:05:05,074 [    941]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: IDEA CORE (242.20224.300), TextMate Bundles (242.20224.300), Images (242.20224.300), Japanese Language Pack / 日本語言語パック (242.20224.300), Emoji Picker (242.20224.300), EditorConfig (242.20224.300), IDE Services / Provisioner API (242.20224.300), Machine Learning in Search Everywhere (242.20224.300), YAML (242.20224.300), JetBrains maven model api classes (242.20224.300), Maven server api classes (242.20224.300), Markdown (242.20224.300), Terminal (242.20224.300), Properties (242.20224.300), Gradle (242.20224.300), NetBeans Keymap (242.20224.300), Machine Learning in Marketplace (242.20224.300), ML Inline Completion - Core Pipeline (242.20224.300), JetBrains Marketplace Licensing (242.20224.300), com.intellij.dev (242.20224.300), Chinese (Simplified) Language Pack / 中文语言包 (242.20224.300), Remote Execution Agent (242.20224.300), Shell Script (242.20224.300), HTML Tools (242.20224.300), Visual Studio Keymap (242.20224.300), Copyright (242.20224.300), Machine Learning Code Completion (242.20224.300), Mercurial (242.20224.300), Java (242.20224.300), JavaFX (242.20224.300), Gradle DSL API (242.20224.300), Turbo Complete (242.20224.300), Kotlin (242.20224.300-IJ), JetBrains Repository Search (242.20224.300), Toml (242.20224.300), WebP Support (242.20224.300), Performance Testing (242.20224.300), com.intellij.tracing.ide (242.20224.300), Java Bytecode Decompiler (242.20224.300), Java Stream Debugger (242.20224.300), Task Management (242.20224.300), JUnit (242.20224.300), Eclipse Interoperability (242.20224.300), IntelliLang (242.20224.300), Groovy (242.20224.300), Java Internationalization (242.20224.300), UI Designer (242.20224.300), Korean Language Pack / 한국어 언어 팩 (242.20224.300), Bytecode Viewer (242.20224.300), TestNG (242.20224.300), Code Coverage for Java (242.20224.300), Java IDE Customization (242.20224.300), Grazie Lite (242.20224.300), Eclipse Keymap (242.20224.300), Perforce Helix Core (242.20224.300), GitHub (242.20224.300), LLM Installer (242.20224.300), Maven (242.20224.300), Gradle-Java (242.20224.300), Gradle-Java-Analysis (242.20224.300), Gradle-Maven (242.20224.300), GitLab (242.20224.300), IDE Features Trainer (242.20224.300), Settings Sync (242.20224.300), Git (242.20224.300), Qodana (242.20224.300), Configuration Script (242.20224.300), Shared Indexes (242.20224.300), Code With Me (242.20224.300), Subversion (242.20224.300), Package Checker (242.20224.300), Gradle Dependency Updater Implementation (242.20224.300), Async Profiler for IDE Performance Testing (242.20224.300)
+2025-05-14 15:05:05,075 [    942]   INFO - #c.i.i.p.PluginManager - Loaded custom plugins: LSP4IJ (0.12.0), eo-intellij-lsp-plugin (0.0.1)
+2025-05-14 15:05:05,148 [   1015]   INFO - c.i.p.i.IdeFingerprint - Calculated dependencies fingerprint in 1 ms (hash=10go2eouplnhv, buildTime=1722977880, appVersion=IC-242.20224.300)
+2025-05-14 15:05:05,198 [   1065]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check enabled: first after 600000 ms, and each following 43200000 ms, wrap in RA: true
+2025-05-14 15:05:05,235 [   1102]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2025-05-14 15:05:05,235 [   1102]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE: 10485760
+2025-05-14 15:05:05,235 [   1102]   INFO - #c.i.u.i.PageCacheUtils - 	Direct memory to use, max: 2126512128
+2025-05-14 15:05:05,235 [   1102]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular + lock-free (LOCK_FREE_PAGE_CACHE_ENABLED:true)
+2025-05-14 15:05:05,236 [   1103]   INFO - #c.i.u.i.PageCacheUtils - 	NEW_PAGE_CACHE_MEMORY_FRACTION: 0.20000000298023224
+2025-05-14 15:05:05,236 [   1103]   INFO - #c.i.u.i.PageCacheUtils - 	Regular FilePageCache: 503316478 bytes
+2025-05-14 15:05:05,236 [   1103]   INFO - #c.i.u.i.PageCacheUtils - 	New     FilePageCache: 125829122 bytes (+ up to 10.0% overflow)
+2025-05-14 15:05:05,236 [   1103]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2025-05-14 15:05:05,313 [   1180]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses 'fast' names enumerator (over mmapped file)
+2025-05-14 15:05:05,314 [   1181]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses streamlined attributes storage (over mmapped file)
+2025-05-14 15:05:05,315 [   1182]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content storage over memory-mapped file, with compression algo: LZ4[ > 8000b ]
+2025-05-14 15:05:05,315 [   1182]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses OverMMappedFile(pageSize=67108864, acquireStorageOwnership=true) storage for main file records table
+2025-05-14 15:05:05,418 [   1285]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS: impl (expected) version=846400, 0 file records, 0 content blobs
+2025-05-14 15:05:05,436 [   1303]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS scanned: file-by-name index was populated
+2025-05-14 15:05:05,436 [   1303]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS initialized: 134 ms, 0 failed attempts, 0 error(s) were recovered
+2025-05-14 15:05:05,472 [   1339]   INFO - #c.i.s.m.SettingsRepositoryToSettingsSyncMigration - No data from settingsRepository in 'settingsRepository' folder => no migration needed
+2025-05-14 15:05:05,475 [   1342]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {MAVEN_REPOSITORY=/home/gasabaev/.m2/repository}
+2025-05-14 15:05:05,488 [   1355]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2025-05-14 15:05:05,496 [   1363]   WARN - c.i.o.u.r.overrides - Conflicting registry key definition for key kotlin.mpp.tests.force.gradle: it was defined by plugin org.jetbrains.kotlin but redefined by plugin org.jetbrains.kotlin. Consider adding overrides="true" for one of the plugins, see the documentation for com.intellij.openapi.util.registry.RegistryKeyBean.overrides for more details.
+2025-05-14 15:05:05,516 [   1383]   INFO - #c.i.o.u.r.RegistryManager - Registry values changed by user: actionSystem.playback.typecommand.delay = 0, freeze.reporter.profiling = false, ide.experimental.ui = true, moved.to.new.ui = true
+2025-05-14 15:05:05,521 [   1388]   INFO - #c.i.h.u.LocalHistoryLog - local history version mismatch (was: 0, expected: 7), rebuilding...
+2025-05-14 15:05:05,521 [   1388]   INFO - #c.i.h.u.LocalHistoryLog - FS has been rebuild, rebuilding local history...
+2025-05-14 15:05:05,581 [   1448]   INFO - #c.i.p.i.b.IdeStartupWizard - IDE startup isEnabled = true, IDEStartupKind = ExperimentalWizard, IDEStartup = 1
+2025-05-14 15:05:05,592 [   1459]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/bin/fsnotifier
+2025-05-14 15:05:05,600 [   1467]   INFO - PerformancePlugin - Error watcher has started
+2025-05-14 15:05:05,601 [   1468]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63343
+2025-05-14 15:05:05,602 [   1469]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2025-05-14 15:05:05,604 [   1471]   INFO - #c.i.p.i.b.ApplicationLoader - ApplicationLoader.loadProject (cwd=null)
+2025-05-14 15:05:05,606 [   1473]   INFO - #c.i.i.CommandLineProcessor - External command line:
+Dir: null
+/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world
+-----
+2025-05-14 15:05:05,618 [   1485]   INFO - #c.i.i.s.p.i.SharedIndexMainZipStorage - Shared Indexes Storage is opened and empty
+2025-05-14 15:05:05,620 [   1487]   WARN - #c.i.i.s.p.i.BundledSharedIndexProvider - Bundled shared index is not found at: /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/jdk-shared-indexes
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'json.file.root.values' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'XmlTagNames' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'editorconfig.index.name' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'XmlNamespaces' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'filetypes' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'TodoIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'Trigram.Index' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'html5.custom.attributes.index' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'SchemaTypeInheritance' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'RelaxSymbolIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'IdIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,676 [   1543]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'Stubs' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,677 [   1544]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'java.auto.module.name' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,677 [   1544]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'FrameworkDetectionIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,677 [   1544]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'fileIncludes' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,677 [   1544]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'xmlProperties' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,678 [   1545]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'HtmlTagIdIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,678 [   1545]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'FilenameIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,678 [   1545]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'DomFileIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,689 [   1556]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'java.source.module.name' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,737 [   1604]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2025-05-14 15:05:05,762 [   1629]   WARN - #c.i.u.n.IdeProxySelector - failed to configure proxy by pacUrl=null (null if autodetect)
+2025-05-14 15:05:05,767 [   1634]   INFO - #c.i.u.i.i.MapIndexStorageCacheProvider - SLRU-cache will be used for indexes
+2025-05-14 15:05:05,773 [   1640]   INFO - #c.i.w.i.i.l.m.ModuleBridgeLoaderService - Workspace model loaded without cache. Loading real project state into workspace model. Thread[#61,DefaultDispatcher-worker-14,5,main]
+2025-05-14 15:05:05,785 [   1652]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'java.null.method.argument' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,826 [   1693]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'bytecodeAnalysis' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,827 [   1694]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'javafx.custom.component' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,828 [   1695]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'java.binary.plus.expression' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,829 [   1696]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'java.fun.expression' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,829 [   1696]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'KotlinShortClassNameFileIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,829 [   1696]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'javafx.id.name' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,831 [   1698]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'JavaFxControllerClassIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,838 [   1705]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,840 [   1707]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,843 [   1710]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,843 [   1710]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,844 [   1711]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'KotlinPackageSourcesMemberNamesIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,844 [   1711]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,844 [   1711]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,845 [   1712]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,845 [   1712]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,848 [   1715]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,858 [   1725]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,906 [   1773]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.SdkEntity from files
+2025-05-14 15:05:05,907 [   1774]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.LibraryEntity from files
+2025-05-14 15:05:05,910 [   1777]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,917 [   1784]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,917 [   1784]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'KotlinTopLevelCallableByPackageShortNameIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,918 [   1785]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,923 [   1790]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'KotlinBinaryRootToPackageIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,930 [   1797]   INFO - #c.i.u.i.i.s.IndexStorageLayoutLocator - Layout 'default' will be used to for 'com.intellij.uiDesigner.FormClassIndex' index (applicable providers: [default, fake-storage]) 
+2025-05-14 15:05:05,967 [   1834]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:DomFileIndex(v = 0),org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex(v = 1),KotlinPackageSourcesMemberNamesIndex(v = 2),html5.custom.attributes.index(v = 1),SchemaTypeInheritance(v = 2),editorconfig.index.name(v = 5),KotlinShortClassNameFileIndex(v = 4),Trigram.Index(v = 4),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex(v = 2),javafx.custom.component(v = 2),fileIncludes(v = 6),XmlTagNames(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex(v = 4),FilenameIndex(v = 258),java.fun.expression(v = 6),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex(v = 2),com.intellij.uiDesigner.FormClassIndex(v = 0),RelaxSymbolIndex(v = 0),java.binary.plus.expression(v = 4),HtmlTagIdIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex(v = 5),FrameworkDetectionIndex(v = 65536),java.null.method.argument(v = 1),KotlinBinaryRootToPackageIndex(v = 5),JavaFxControllerClassIndex(v = 1),org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex(v = 3),bytecodeAnalysis(v = 11),org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex(v = 5),xmlProperties(v = 2),IdIndex(v = 22),org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex(v = 5),XmlNamespaces(v = 8),KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex(v = 3),json.file.root.values(v = 5),TodoIndex(v = 13),Stubs(v = 46),java.source.module.name(v = 4),KotlinTopLevelCallableByPackageShortNameIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex(v = 4),java.auto.module.name(v = 6),filetypes(v = 4096),javafx.id.name(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex(v = 4)
+2025-05-14 15:05:05,973 [   1840]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2025-05-14 15:05:05,978 [   1845]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 394 ms. Initialized indexes: [FilenameIndex, java.auto.module.name, DomFileIndex, html5.custom.attributes.index, editorconfig.index.name, RelaxSymbolIndex, SchemaTypeInheritance, XmlNamespaces, TodoIndex, json.file.root.values, xmlProperties, java.source.module.name, fileIncludes, java.null.method.argument, IdIndex, XmlTagNames, Trigram.Index, HtmlTagIdIndex, FrameworkDetectionIndex, filetypes, JavaFxControllerClassIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, bytecodeAnalysis, javafx.custom.component, KotlinShortClassNameFileIndex, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, java.fun.expression, java.binary.plus.expression, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, javafx.id.name, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, com.intellij.uiDesigner.FormClassIndex, KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex, KotlinTopLevelCallableByPackageShortNameIndex, KotlinBinaryRootToPackageIndex, Stubs].
+2025-05-14 15:05:06,034 [   1901]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Sync global entities with mutable entity storage
+2025-05-14 15:05:06,139 [   2006]   INFO - #c.i.p.s.StubIndexImpl - Following stub indices will be built:jvm.static.member.name(v = 2),KotlinProbablyNothingPropertyShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex(v = 2),KotlinTopLevelTypeAliasByPackageIndex(v = 2),java.annotations(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex(v = 2),java.field.name(v = 2),KotlinOverridableInternalMembersShortNameIndex(v = 2),markdown.header.anchor(v = 2),KotlinTopLevelFunctionByPackageIndex(v = 2),java.anonymous.baseref(v = 2),java.class.fqn(v = 1),KotlinProbablyContractedFunctionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex(v = 2),java.method.name(v = 2),gr.field.name(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex(v = 2),gr.annot.method.name(v = 5),java.class.shortname(v = 4),org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex(v = 2),KotlinFileFacadeClassByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex(v = 2),KotlinTypeAliasByExpansionShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex(v = 2),gr.anonymous.class(v = 6),org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex(v = 2),markdown.header(v = 2),java.unnamed.class(v = 2),kotlin.primeIndexKey(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex(v = 2),KotlinTopLevelExtensionsByReceiverTypeIndex(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex(v = 2),KotlinTopLevelPropertyByPackageIndex(v = 2),KotlinProbablyNothingFunctionShortNameIndex(v = 2),gr.script.class(v = 5),properties.index(v = 2),dom.elementClass(v = 0),java.class.extlist(v = 3),java.method.parameter.types(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex(v = 2),gr.class.fqn.s(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex(v = 2),jvm.static.member.type(v = 2),gr.method.name(v = 5),KotlinExtensionsInObjectsByReceiverTypeIndex(v = 2),gr.annot.members(v = 5),java.module.name(v = 4),org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex(v = 3),dom.namespaceKey(v = 1),gr.script.fqn.s(v = 5),gr.class.super(v = 5)
+2025-05-14 15:05:06,140 [   2007]   INFO - #c.i.w.i.i.j.s.JpsProjectModelSynchronizer - Attempt 1: Apply JPS storage (iml files)
+2025-05-14 15:05:06,140 [   2007]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 161 ms. Initialized stub indexes: {KotlinProbablyContractedFunctionShortNameIndex, gr.script.fqn.s, markdown.header.anchor, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, dom.namespaceKey, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, java.anonymous.baseref, org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex, KotlinProbablyNothingFunctionShortNameIndex, java.module.name, KotlinExtensionsInObjectsByReceiverTypeIndex, kotlin.primeIndexKey, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, java.class.shortname, java.field.name, java.unnamed.class, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, gr.field.name, java.annotations, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, KotlinProbablyNothingPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, gr.method.name, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, java.method.name, gr.class.super, KotlinFileFacadeClassByPackageIndex, jvm.static.member.name, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, java.class.fqn, KotlinOverridableInternalMembersShortNameIndex, KotlinTopLevelPropertyByPackageIndex, markdown.header, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, dom.elementClass, properties.index, gr.annot.method.name, java.class.extlist, org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex, KotlinTypeAliasByExpansionShortNameIndex, jvm.static.member.type, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, gr.script.class, java.method.parameter.types, gr.annot.members, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, KotlinTopLevelTypeAliasByPackageIndex, gr.anonymous.class, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, KotlinTopLevelExtensionsByReceiverTypeIndex, gr.class.fqn.s, KotlinTopLevelFunctionByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex}.
+2025-05-14 15:05:06,346 [   2213]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2025-05-14 15:05:06,358 [   2225]   INFO - #c.i.w.i.i.j.s.JpsProjectModelSynchronizer - Attempt 1: Changes were successfully applied
+2025-05-14 15:05:06,577 [   2444]   WARN - #c.i.s.ComponentManagerImpl - `preload=NOT_HEADLESS` must be used only for core services (service=org.jetbrains.kotlin.idea.search.refIndex.KotlinCompilerReferenceIndexService, plugin=org.jetbrains.kotlin)
+2025-05-14 15:05:06,578 [   2445]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=org.jetbrains.idea.maven.project.MavenProjectsManagerEx, plugin=org.jetbrains.idea.maven)
+2025-05-14 15:05:06,578 [   2445]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=org.jetbrains.idea.maven.navigator.MavenProjectsNavigator, plugin=org.jetbrains.idea.maven)
+2025-05-14 15:05:06,578 [   2445]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=org.jetbrains.idea.maven.tasks.MavenShortcutsManager, plugin=org.jetbrains.idea.maven)
+2025-05-14 15:05:06,579 [   2446]   WARN - #c.i.s.ComponentManagerImpl - `preload=NOT_HEADLESS` must be used only for core services (service=com.jetbrains.rdserver.toolWindow.BackendServerToolWindowManager, plugin=com.jetbrains.codeWithMe)
+2025-05-14 15:05:06,579 [   2446]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.users.BackendUserManager, plugin=com.jetbrains.codeWithMe)
+2025-05-14 15:05:06,579 [   2446]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.ports.CwmPortForwardingToolWindowManager, plugin=com.jetbrains.codeWithMe)
+2025-05-14 15:05:06,579 [   2446]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.users.BackendCWMUserFocusHost, plugin=com.jetbrains.codeWithMe)
+2025-05-14 15:05:06,580 [   2447]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.FollowMeManagerService, plugin=com.jetbrains.codeWithMe)
+2025-05-14 15:05:06,580 [   2447]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.BackendProjectViewSync, plugin=com.jetbrains.codeWithMe)
+2025-05-14 15:05:06,580 [   2447]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.BackendFollowMeEditorsHost, plugin=com.jetbrains.codeWithMe)
+2025-05-14 15:05:06,580 [   2447]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.BackendFollowMeDebuggerHost, plugin=com.jetbrains.codeWithMe)
+2025-05-14 15:05:06,581 [   2448]   WARN - #c.i.s.ComponentManagerImpl - `preload=TRUE` must be used only for core services (service=com.intellij.cwm.plugin.following.FollowMeLookupSynchronizer, plugin=com.jetbrains.codeWithMe)
+2025-05-14 15:05:06,592 [   2459]   INFO - #c.i.p.i.d.s.IdeStartUpPerformanceService - startup phase completed: editor highlighted
+2025-05-14 15:05:06,648 [   2515]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [/home/gasabaev/gh_repos/eo-intellij-lsp-plugin]
+2025-05-14 15:05:06,649 [   2516]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/eo-lsp-server]
+2025-05-14 15:05:06,665 [   2532]   INFO - PerformancePlugin - Option ide.performance.screenshot is initialized, screenshots will be captured
+2025-05-14 15:05:06,665 [   2532]   INFO - PerformancePlugin - Start Execution
+2025-05-14 15:05:06,667 [   2534]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'enabled' value in [/etc/xdg/JetBrains/portForwarding/enabled, /etc/xdg/JetBrains/portForwarding/config.json, /home/gasabaev/.config/JetBrains/portForwarding/enabled, /home/gasabaev/.config/JetBrains/portForwarding/config.json]
+2025-05-14 15:05:06,668 [   2535]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'enabled' is not found
+2025-05-14 15:05:06,685 [   2552]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2025-05-14 15:05:06,695 [   2562]   INFO - STDOUT - [15:05:06]: INFO - com.intellij.tools.ide.starter.bus.shared.client.LocalEventBusServerClient - New subscriber StopProfilerEvent
+2025-05-14 15:05:06,703 [   2570]   INFO - #c.i.c.p.f.FollowMeManager - Register new user (name: 'gasabaev', client id: Host)
+2025-05-14 15:05:06,993 [   2860]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2025-05-14 15:05:07,008 [   2875]   INFO - #c.i.s.c.s.IdeStationServerService - Discovery is disabled
+2025-05-14 15:05:07,008 [   2875]   INFO - #c.i.o.u.i.UpdateChecker - failed to load update data (java.net.ConnectException: Connection refused)
+2025-05-14 15:05:07,010 [   2877]   INFO - #c.i.p.i.b.ApplicationLoader - Input method disabler: not gtk desktop: '' | ''
+2025-05-14 15:05:07,014 [   2881]   WARN - #c.i.o.a.Application - issue detected: ide.script.launcher.used
+2025-05-14 15:05:07,057 [   2924]   INFO - #o.j.p.g.j.IdeVersionedDataUpdater - Updating version compatibility for org.jetbrains.plugins.gradle.jvmcompat.GradleCompatibilitySupportUpdater. Last update was: 0. Update interval: 1d Url to update https://download.jetbrains.com/resources/intellij/plugins/gradle/v1/compatibility.json
+2025-05-14 15:05:07,060 [   2927]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 7 millis (read time: 1)
+2025-05-14 15:05:07,083 [   2950]   INFO - #o.j.k.i.PluginStartupActivity - Kotlin plugin mode: K1
+2025-05-14 15:05:07,112 [   2979]   INFO - #git4idea.commands.GitHandler - [.] git version
+2025-05-14 15:05:07,116 [   2983]   INFO - #c.i.i.b.BookmarksManager - no state loaded for new bookmarks
+2025-05-14 15:05:07,117 [   2984]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@3c7ee5fd
+2025-05-14 15:05:07,119 [   2986]   INFO - #c.i.i.b.BookmarkManager - no state loaded for old bookmarks
+2025-05-14 15:05:07,120 [   2987]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2025-05-14 15:05:07,121 [   2988]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Running initialization condition: com.intellij.indexing.shared.download.SharedIndexDownloadedCondition@5c220ef1
+2025-05-14 15:05:07,121 [   2988]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Finished: com.intellij.indexing.shared.download.SharedIndexDownloadedCondition@5c220ef1
+2025-05-14 15:05:07,123 [   2990]   INFO - #c.i.p.i.d.s.IdeStartUpPerformanceService - startup phase completed: project dumb aware activities finished
+2025-05-14 15:05:07,125 [   2992]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 139ms; general responsiveness: ok; EDT responsiveness: ok
+2025-05-14 15:05:07,125 [   2992]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2025-05-14 15:05:07,129 [   2996]   INFO - #git4idea.commands.GitHandler - git version 2.34.1
+2025-05-14 15:05:07,131 [   2998]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.indexing.shared.platform.impl.OnDiskSharedIndexChunkLocator@70bc049e
+2025-05-14 15:05:07,134 [   3001]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2025-05-14 15:05:07,141 [   3008]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.indexing.shared.platform.impl.OnDiskSharedIndexChunkLocator@70bc049e
+2025-05-14 15:05:07,141 [   3008]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@6b0379ef
+2025-05-14 15:05:07,143 [   3010]   INFO - #c.i.i.f.FavoritesManager - no state loaded for old favorites
+2025-05-14 15:05:07,144 [   3011]   INFO - #git4idea.config.GitExecutableFileTester - Git version for /usr/bin/git: 2.34.1.0 (UNIX)
+2025-05-14 15:05:07,152 [   3019]   INFO - #c.i.u.i.p.IncrementalProjectIndexableFilesFilterHolder - PersistentProjectIndexableFilesFilterFactory is chosen as indexable files filter factory for project: eo-hello-world
+2025-05-14 15:05:07,173 [   3040]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: App fingerprint changed: FingerprintImpl(fingerprint=0) to FingerprintImpl(fingerprint=4799324105740540723)
+2025-05-14 15:05:07,185 [   3052]   INFO - #c.i.u.i.UnindexedFilesScanner - Full scanning on startup will NOT be skipped for project eo-hello-world because of following unsatisfied conditions:
+FILTER_IS_NOT_UP_TO_DATE: Persistent indexable files filter is NOT up-to-date because of following unsatisfied conditions: [IS_FILTER_LOADED_FROM_DISK, FILTER_IS_NOT_INVALIDATED, INDEXING_REQUEST_ID_DID_NOT_CHANGE_AFTER_LAST_SCANNING]
+REGISTRY_FILE_IS_ON: Registry flag 'full.scanning.on.startup.can.be.skipped' is turned off
+2025-05-14 15:05:07,193 [   3060]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@6b0379ef
+2025-05-14 15:05:07,195 [   3062]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.FileBasedIndexInfrastructureExtensionStartup@2b95ea25
+2025-05-14 15:05:07,197 [   3064]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.FileBasedIndexInfrastructureExtensionStartup@2b95ea25
+2025-05-14 15:05:07,198 [   3065]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@3e70fc04
+2025-05-14 15:05:07,201 [   3068]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.externalDependencies.impl.CheckRequiredPluginsActivity@3e70fc04
+2025-05-14 15:05:07,202 [   3069]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@195f924b
+2025-05-14 15:05:07,208 [   3075]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@195f924b
+2025-05-14 15:05:07,208 [   3075]   WARN - #o.j.p.g.j.IdeVersionedDataUpdater - Could not download new IDE versioned data for org.jetbrains.plugins.gradle.jvmcompat.GradleCompatibilitySupportUpdater
+com.intellij.util.io.HttpRequests$HttpStatusException: We are sorry, but we are currently unable to provide our products or services to you due to export control regulations.. Status=451, Url=https://download.jetbrains.com/resources/intellij/plugins/gradle/v1/compatibility.json
+	at com.intellij.util.io.HttpRequests.throwHttpStatusError(HttpRequests.java:678)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:653)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:366)
+	at com.intellij.util.io.HttpRequests$RequestImpl.doReadBytes(HttpRequests.java:442)
+	at com.intellij.util.io.HttpRequests$RequestImpl.readString(HttpRequests.java:431)
+	at com.intellij.util.io.RequestBuilder.lambda$readString$5(RequestBuilder.java:85)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:529)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:511)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:340)
+	at com.intellij.util.io.RequestBuilder.readString(RequestBuilder.java:85)
+	at com.intellij.util.io.RequestBuilder.readString(RequestBuilder.java:89)
+	at org.jetbrains.plugins.gradle.jvmcompat.IdeVersionedDataUpdater.retrieveNewData(IdeVersionedDataUpdater.kt:42)
+	at org.jetbrains.plugins.gradle.jvmcompat.IdeVersionedDataUpdater.checkForUpdates(IdeVersionedDataUpdater.kt:30)
+	at org.jetbrains.plugins.gradle.service.project.GradleVersionUpdateStartupActivity$execute$2.invoke(GradleVersionUpdateStartupActivity.kt:22)
+	at org.jetbrains.plugins.gradle.service.project.GradleVersionUpdateStartupActivity$execute$2.invoke(GradleVersionUpdateStartupActivity.kt:21)
+	at com.intellij.openapi.progress.CoroutinesKt.blockingContextInner(coroutines.kt:339)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invokeSuspend(coroutines.kt:232)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invoke(coroutines.kt)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invoke(coroutines.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:62)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:261)
+	at com.intellij.openapi.progress.CoroutinesKt.blockingContext(coroutines.kt:231)
+	at org.jetbrains.plugins.gradle.service.project.GradleVersionUpdateStartupActivity.execute(GradleVersionUpdateStartupActivity.kt:21)
+	at com.intellij.ide.startup.impl.StartupManagerImplKt$launchActivity$1.invokeSuspend(StartupManagerImpl.kt:496)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+2025-05-14 15:05:07,209 [   3076]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.ide.projectWizard.generators.SdkPreIndexingRequiredForSmartModeActivity@fd4f674
+2025-05-14 15:05:07,210 [   3077]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.ide.projectWizard.generators.SdkPreIndexingRequiredForSmartModeActivity@fd4f674
+2025-05-14 15:05:07,212 [   3079]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.project.InitialDumbTaskRequiredForSmartMode@3c7ee5fd
+2025-05-14 15:05:07,258 [   3125]   INFO - #c.i.i.p.i.ProjectViewInitNotifier - Project View initialization started
+2025-05-14 15:05:07,296 [   3163]   WARN - #o.j.p.t.TextMateService - Cannot find referenced file `./syntaxes/asp-vb-net.tmLanguage.json` in bundle `/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/cache/builds/IC-242.20224.300/idea-IC-242.20224.300/plugins/textmate/lib/bundles/vb`
+2025-05-14 15:05:07,643 [   3510]   INFO - #c.i.i.p.i.ProjectViewInitNotifier - Project View initialization completed
+2025-05-14 15:05:07,825 [   3692]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2025-05-14 15:05:07,829 [   3696]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 7 ms: ConstantEntitiesCheckActivity
+2025-05-14 15:05:07,928 [   3795]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [eo-hello-world]
+2025-05-14 15:05:07,968 [   3835]   INFO - #c.i.v.l.d.VcsLogData - Vcs log index is turned off in the registry
+2025-05-14 15:05:08,299 [   4166]   INFO - #c.i.o.p.UnindexedFilesScannerExecutor - [9ec3c77b] Running task: com.intellij.util.indexing.UnindexedFilesScannerExecutorImpl$ScheduledScanningTask@342dbca0
+2025-05-14 15:05:08,312 [   4179]   INFO - #c.i.u.i.UnindexedFilesScanner - [9ec3c77b], scanning stage: DelayedPushProperties
+2025-05-14 15:05:08,333 [   4200]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of eo-hello-world. Reason: On project open
+2025-05-14 15:05:08,333 [   4200]   INFO - #c.i.u.i.UnindexedFilesScanner - [9ec3c77b], scanning stage: CreatingIterators
+2025-05-14 15:05:08,343 [   4210]   INFO - #c.i.u.i.UnindexedFilesScanner - [9ec3c77b], scanning stage: CollectingIndexableFiles
+2025-05-14 15:05:08,346 [   4213]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of eo-hello-world uses 19 scanning threads
+2025-05-14 15:05:08,388 [   4255]   INFO - #c.i.o.p.i.j.JdkAuto - Looking for a local SDK for JDK with name 23
+2025-05-14 15:05:08,407 [   4274]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of properties.dtd by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file properties.dtd with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=4301, fileInfo='properties.dtd(id=4301)'}] and removers: []; 
+2025-05-14 15:05:08,407 [   4274]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file vcs.xml with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=4437, fileInfo='vcs.xml(id=4437)'}] and removers: []; 
+2025-05-14 15:05:08,407 [   4274]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of ranges.kotlin_builtins by request of indexes: [KotlinShortClassNameFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex->NOT_INDEXED,KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex->NOT_INDEXED,KotlinTopLevelCallableByPackageShortNameIndex->NOT_INDEXED,KotlinBinaryRootToPackageIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file ranges.kotlin_builtins with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=227, fileInfo='ranges.kotlin_builtins(id=227)'}] and removers: []; 
+2025-05-14 15:05:08,411 [   4278]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file misc.xml with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=13, fileInfo='misc.xml(id=13)'}] and removers: []; 
+2025-05-14 15:05:08,412 [   4279]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of coroutines.kotlin_builtins by request of indexes: [KotlinShortClassNameFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex->NOT_INDEXED,KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex->NOT_INDEXED,KotlinTopLevelCallableByPackageShortNameIndex->NOT_INDEXED,KotlinBinaryRootToPackageIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file coroutines.kotlin_builtins with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=244, fileInfo='coroutines.kotlin_builtins(id=244)'}] and removers: []; 
+2025-05-14 15:05:08,412 [   4279]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file .gitignore with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=4436, fileInfo='.gitignore(id=4436)'}] and removers: []; 
+2025-05-14 15:05:08,412 [   4279]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file modules.xml with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=4434, fileInfo='modules.xml(id=4434)'}] and removers: []; 
+2025-05-14 15:05:08,413 [   4280]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of annotation.kotlin_builtins by request of indexes: [KotlinShortClassNameFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex->NOT_INDEXED,KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex->NOT_INDEXED,KotlinTopLevelCallableByPackageShortNameIndex->NOT_INDEXED,KotlinBinaryRootToPackageIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file annotation.kotlin_builtins with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=230, fileInfo='annotation.kotlin_builtins(id=230)'}] and removers: []; 
+2025-05-14 15:05:08,413 [   4280]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file workspace.xml with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=4433, fileInfo='workspace.xml(id=4433)'}] and removers: []; 
+2025-05-14 15:05:08,413 [   4280]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of reflect.kotlin_builtins by request of indexes: [KotlinShortClassNameFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex->NOT_INDEXED,KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex->NOT_INDEXED,KotlinTopLevelCallableByPackageShortNameIndex->NOT_INDEXED,KotlinBinaryRootToPackageIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file reflect.kotlin_builtins with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=235, fileInfo='reflect.kotlin_builtins(id=235)'}] and removers: []; 
+2025-05-14 15:05:08,413 [   4280]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file eo-hello-world.iml with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=4438, fileInfo='eo-hello-world.iml(id=4438)'}] and removers: []; 
+2025-05-14 15:05:08,414 [   4281]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file LanguageServersSettings.xml with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=4435, fileInfo='LanguageServersSettings.xml(id=4435)'}] and removers: []; 
+2025-05-14 15:05:08,414 [   4281]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of kotlin.kotlin_builtins by request of indexes: [KotlinShortClassNameFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex->NOT_INDEXED,KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex->NOT_INDEXED,KotlinTopLevelCallableByPackageShortNameIndex->NOT_INDEXED,KotlinBinaryRootToPackageIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file kotlin.kotlin_builtins with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=222, fileInfo='kotlin.kotlin_builtins(id=222)'}] and removers: []; 
+2025-05-14 15:05:08,415 [   4282]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of app.eo by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file app.eo with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=4418, fileInfo='app.eo(id=4418)'}] and removers: []; 
+2025-05-14 15:05:08,415 [   4282]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of collections.kotlin_builtins by request of indexes: [KotlinShortClassNameFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex->NOT_INDEXED,KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex->NOT_INDEXED,KotlinTopLevelCallableByPackageShortNameIndex->NOT_INDEXED,KotlinBinaryRootToPackageIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file collections.kotlin_builtins with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=224, fileInfo='collections.kotlin_builtins(id=224)'}] and removers: []; 
+2025-05-14 15:05:08,417 [   4284]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of internal.kotlin_builtins by request of indexes: [KotlinShortClassNameFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex->NOT_INDEXED,org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex->NOT_INDEXED,KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex->NOT_INDEXED,KotlinTopLevelCallableByPackageShortNameIndex->NOT_INDEXED,KotlinBinaryRootToPackageIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file internal.kotlin_builtins with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=239, fileInfo='internal.kotlin_builtins(id=239)'}] and removers: []; 
+2025-05-14 15:05:08,418 [   4285]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of meta-ext.rnc by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file meta-ext.rnc with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=4478, fileInfo='meta-ext.rnc(id=4478)'}] and removers: []; 
+2025-05-14 15:05:08,420 [   4287]   INFO - #c.i.o.p.i.j.JdkAuto - The following local JDKs were found: [/home/gasabaev/.jdks/openjdk-23.0.2, 23.0.2, 23], [/usr/lib/jvm/java-1.21.0-openjdk-amd64, 21.0.7, 21], [/usr/lib/jvm/java-21-openjdk-amd64, 21.0.7, 21], [/usr/lib/jvm/java-1.17.0-openjdk-amd64, 17.0.15, 17], [/usr/lib/jvm/java-17-openjdk-amd64, 17.0.15, 17], [/home/gasabaev/.jdks/corretto-1.8.0_442, 1.8.0_442, 1.8]
+2025-05-14 15:05:08,446 [   4313]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [eo-hello-world]
+2025-05-14 15:05:08,484 [   4351]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@7c0e3dbd
+2025-05-14 15:05:08,629 [   4496]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for eo-hello-world. Number of scanned files: 230; number of files for indexing: 223
+2025-05-14 15:05:08,630 [   4497]   INFO - #c.i.o.p.InitialVfsRefreshService - 9ec3c77b: marking roots for initial VFS refresh
+2025-05-14 15:05:08,632 [   4499]   INFO - #c.i.o.p.InitialVfsRefreshService - 9ec3c77b: starting initial VFS refresh of 1 roots
+2025-05-14 15:05:08,639 [   4506]   INFO - #c.i.o.p.UnindexedFilesScannerExecutor - [9ec3c77b] Task finished: com.intellij.util.indexing.UnindexedFilesScannerExecutorImpl$ScheduledScanningTask@342dbca0
+2025-05-14 15:05:08,642 [   4509]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@7c0e3dbd
+2025-05-14 15:05:08,986 [   4853]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2025-05-14 15:05:08,987 [   4854]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 3 in 3 ms: Sync global entities with project: eo-hello-world
+2025-05-14 15:05:08,987 [   4854]   INFO - #c.i.w.i.i.GlobalWorkspaceModel - Global model updated to version 2 in 14 ms: Adding SDK: 23 JavaSDK
+2025-05-14 15:05:08,988 [   4855]   INFO - #c.i.o.p.i.UnknownMissingSdkFixLocal - Automatically set Sdk MissingSdkInfo(mySdkName=23, mySdkType=JavaSDK) to /home/gasabaev/.jdks/openjdk-23.0.2
+2025-05-14 15:05:08,991 [   4858]   INFO - #c.i.o.p.InitialVfsRefreshService - 9ec3c77b: initial VFS refresh finished in 358 ms
+2025-05-14 15:05:08,998 [   4865]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[eo-hello-world, 223 files, reason: On project open]
+2025-05-14 15:05:09,008 [   4875]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 15 indexing and 4 writing threads for indexing
+2025-05-14 15:05:09,558 [   5425]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of eo-hello-world : 0 to update, calculated in 0ms
+2025-05-14 15:05:09,560 [   5427]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for eo-hello-world. Unindexed files update took 558ms; general responsiveness: 1/1 sluggish; EDT responsiveness: ok
+2025-05-14 15:05:09,581 [   5448]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[eo-hello-world, 223 files, reason: On project open]
+2025-05-14 15:05:09,583 [   5450]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [eo-hello-world]
+2025-05-14 15:05:09,587 [   5454]   INFO - #c.i.o.p.UnindexedFilesScannerExecutor - [9ec3c77b] Running task: com.intellij.util.indexing.UnindexedFilesScannerExecutorImpl$ScheduledScanningTask@17835b42
+2025-05-14 15:05:09,588 [   5455]   INFO - #c.i.u.i.UnindexedFilesScanner - [9ec3c77b], scanning stage: DelayedPushProperties
+2025-05-14 15:05:09,589 [   5456]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of eo-hello-world. Reason: changes in: "JDK 23 /home/gasabaev/.jdks/openjdk-23.0.2"
+2025-05-14 15:05:09,589 [   5456]   INFO - #c.i.u.i.UnindexedFilesScanner - [9ec3c77b], scanning stage: CreatingIterators
+2025-05-14 15:05:09,589 [   5456]   INFO - #c.i.u.i.UnindexedFilesScanner - [9ec3c77b], scanning stage: CollectingIndexableFiles
+2025-05-14 15:05:09,589 [   5456]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of eo-hello-world uses 19 scanning threads
+2025-05-14 15:05:11,011 [   6878]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of module-info.java by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file module-info.java with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=25156, fileInfo='module-info.java(id=25156)'}] and removers: []; 
+2025-05-14 15:05:11,014 [   6881]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of Event.java by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file Event.java with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=25320, fileInfo='Event.java(id=25320)'}] and removers: []; 
+2025-05-14 15:05:11,016 [   6883]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of EventSet.java by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file EventSet.java with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=25314, fileInfo='EventSet.java(id=25314)'}] and removers: []; 
+2025-05-14 15:05:11,017 [   6884]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of StepEvent.java by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file StepEvent.java with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=25339, fileInfo='StepEvent.java(id=25339)'}] and removers: []; 
+2025-05-14 15:05:11,017 [   6884]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of EventQueue.java by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file EventQueue.java with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=25324, fileInfo='EventQueue.java(id=25324)'}] and removers: []; 
+2025-05-14 15:05:11,018 [   6885]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of VMDeathEvent.java by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file VMDeathEvent.java with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=25334, fileInfo='VMDeathEvent.java(id=25334)'}] and removers: []; 
+2025-05-14 15:05:11,019 [   6886]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of VMStartEvent.java by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file VMStartEvent.java with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=25346, fileInfo='VMStartEvent.java(id=25346)'}] and removers: []; 
+2025-05-14 15:05:11,020 [   6887]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of package-info.java by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file package-info.java with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=25312, fileInfo='package-info.java(id=25312)'}] and removers: []; 
+2025-05-14 15:05:11,020 [   6887]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of EventIterator.java by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file EventIterator.java with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=25309, fileInfo='EventIterator.java(id=25309)'}] and removers: []; 
+2025-05-14 15:05:11,021 [   6888]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of ExceptionEvent.java by request of indexes: [IdIndex->NOT_INDEXED,Trigram.Index->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file ExceptionEvent.java with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=25330, fileInfo='ExceptionEvent.java(id=25330)'}] and removers: []; 
+2025-05-14 15:05:11,028 [   6895]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [eo-hello-world]
+2025-05-14 15:05:11,040 [   6907]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@30e0be11
+2025-05-14 15:05:11,919 [   7786]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file nfc.nrm with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=60154, fileInfo='nfc.nrm(id=60154)'}] and removers: []; 
+2025-05-14 15:05:11,919 [   7786]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file nfkc.nrm with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=60157, fileInfo='nfkc.nrm(id=60157)'}] and removers: []; 
+2025-05-14 15:05:11,920 [   7787]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file ubidi.icu with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=60156, fileInfo='ubidi.icu(id=60156)'}] and removers: []; 
+2025-05-14 15:05:11,920 [   7787]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file uprops.icu with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=60158, fileInfo='uprops.icu(id=60158)'}] and removers: []; 
+2025-05-14 15:05:11,984 [   7851]   INFO - #c.i.c.CompilerWorkspaceConfiguration - Available processors: 20
+2025-05-14 15:05:11,987 [   7854]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file uidna.spp with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=63161, fileInfo='uidna.spp(id=63161)'}] and removers: []; 
+2025-05-14 15:05:12,013 [   7880]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file LineBreakIteratorData with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=64418, fileInfo='LineBreakIteratorData(id=64418)'}] and removers: []; 
+2025-05-14 15:05:12,014 [   7881]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file WordBreakIteratorData with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=64416, fileInfo='WordBreakIteratorData(id=64416)'}] and removers: []; 
+2025-05-14 15:05:12,014 [   7881]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file SentenceBreakIteratorData with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=64403, fileInfo='SentenceBreakIteratorData(id=64403)'}] and removers: []; 
+2025-05-14 15:05:12,141 [   8008]   INFO - #c.i.d.MemorySizeConfigurator - Physical memory 31779M, minimum memory size 128M, -Xmx adjusted from 2048M to 3972M
+2025-05-14 15:05:12,143 [   8010]   INFO - #o.j.j.b.i.CompilerReferenceIndex - backward reference index version doesn't exist
+2025-05-14 15:05:12,150 [   8017]   INFO - #c.i.c.b.IsUpToDateCheckStartupActivity - suitable consumer is not found
+2025-05-14 15:05:12,171 [   8038]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file uniName.dat with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=68512, fileInfo='uniName.dat(id=68512)'}] and removers: []; 
+2025-05-14 15:05:12,212 [   8079]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scanner has updated file currency.data with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=70305, fileInfo='currency.data(id=70305)'}] and removers: []; 
+2025-05-14 15:05:12,874 [   8741]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for eo-hello-world. Number of scanned files: 43175; number of files for indexing: 42828
+2025-05-14 15:05:12,878 [   8745]   INFO - #c.i.o.p.UnindexedFilesScannerExecutor - [9ec3c77b] Task finished: com.intellij.util.indexing.UnindexedFilesScannerExecutorImpl$ScheduledScanningTask@17835b42
+2025-05-14 15:05:12,879 [   8746]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.util.indexing.DumbModeWhileScanningTrigger$DumbModeWhileScanning@30e0be11
+2025-05-14 15:05:12,879 [   8746]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) UnindexedFilesIndexer[eo-hello-world, 42828 files, reason: changes in: "JDK 23 /home/gasabaev/.jdks/openjdk-23.0.2"]
+2025-05-14 15:05:12,881 [   8748]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 15 indexing and 4 writing threads for indexing
+2025-05-14 15:05:27,540 [  23407]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of eo-hello-world : 0 to update, calculated in 0ms
+2025-05-14 15:05:27,540 [  23407]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for eo-hello-world. Unindexed files update took 14659ms; general responsiveness: ok; EDT responsiveness: ok
+2025-05-14 15:05:27,557 [  23424]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) UnindexedFilesIndexer[eo-hello-world, 42828 files, reason: changes in: "JDK 23 /home/gasabaev/.jdks/openjdk-23.0.2"]
+2025-05-14 15:05:27,558 [  23425]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [eo-hello-world]
+2025-05-14 15:05:28,109 [  23976]   INFO - #c.j.p.CommandLogger - %include /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/system/testExample.text
+2025-05-14 15:05:28,109 [  23976]   INFO - #c.j.p.CommandLogger - %include /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/system/testExample.text
+2025-05-14 15:05:28,112 [  23979]   INFO - #c.j.p.CommandLogger - Finished OK 0 tests
+2025-05-14 15:05:28,112 [  23979]   INFO - PerformancePlugin - Execution of the script has been finished successfully
+2025-05-14 15:05:38,196 [  34063]   INFO - #c.i.u.i.ManagedPersistentCache - created persistent map persistent-folding-eohelloworld-9ec3c77b with size 0
+2025-05-14 15:05:38,199 [  34066]   INFO - #c.i.u.i.ManagedPersistentCache - created persistent map persistent-markup-eohelloworld-9ec3c77b with size 0
+2025-05-14 15:05:38,201 [  34068]   INFO - #c.i.u.i.ManagedPersistentCache - created persistent map persistent-code-vision-eohelloworld-9ec3c77b with size 0
+2025-05-14 15:05:38,201 [  34068]   INFO - #c.i.u.i.ManagedPersistentCache - created persistent map persistent-parameter-hints-eohelloworld-9ec3c77b with size 0
+2025-05-14 15:05:38,205 [  34072]   INFO - #c.i.u.i.ManagedPersistentCache - created persistent map persistent-declarative-hints-eohelloworld-9ec3c77b with size 0
+2025-05-14 15:05:38,509 [  34376]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Highlighting began with 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+2025-05-14 15:05:38,881 [  34748]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - daemon starting with 1 unfiltered editors: 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+2025-05-14 15:05:38,881 [  34748]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - daemon starting for 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+2025-05-14 15:05:39,064 [  34931]   WARN - org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint - Unsupported request method: initialize
+2025-05-14 15:05:39,068 [  34935]   WARN - org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint - Unsupported request method: shutdown
+2025-05-14 15:05:39,069 [  34936]   WARN - com.redhat.devtools.lsp4ij.LanguageServerWrapper - Error while shutdown the language server 'eoLanguageServer'
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Unsupported request method: shutdown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.shutdownLanguageServerInstance(LanguageServerWrapper.java:652)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.shutdownAll(LanguageServerWrapper.java:624)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.lambda$stop$16(LanguageServerWrapper.java:591)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Unsupported request method: shutdown
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.lambda$start$5(LanguageServerWrapper.java:341)
+	... 7 more
+2025-05-14 15:05:39,069 [  34936]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - daemon canceled by the reason of ''
+2025-05-14 15:05:39,070 [  34937]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - daemon stopped with 1 unfiltered editors
+2025-05-14 15:05:39,072 [  34939]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Unfinished editor isFinishedInDumbMode=false, isCancelled=true 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+2025-05-14 15:05:39,073 [  34940]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - daemon stopped for 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo, shouldWaitForHighlighting=true, editor.shouldWaitForNextHighlighting=true
+2025-05-14 15:05:39,081 [  34948]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Analyzer status for /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+ DS: finished=false; pass statuses: 0; ; error counts: 12: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-05-14 15:05:39,082 [  34949]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - File status map defensivelyMarked = false; wolfPassFinished = false; errorFound = false; dirtyScopes: ( pass: 4 -> Whole file; pass: 13 -> Whole file; pass: 8 -> Whole file; pass: 11 -> null; pass: 7 -> null; pass: 16 -> null;)
+2025-05-14 15:05:39,082 [  34949]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Highlighting still in progress: 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+2025-05-14 15:05:39,452 [  35319]   WARN - org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint - Unsupported request method: initialize
+2025-05-14 15:05:39,455 [  35322]   WARN - org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint - Unsupported request method: shutdown
+2025-05-14 15:05:39,456 [  35323]   WARN - com.redhat.devtools.lsp4ij.LanguageServerWrapper - Error while shutdown the language server 'eoLanguageServer'
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Unsupported request method: shutdown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.shutdownLanguageServerInstance(LanguageServerWrapper.java:652)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.shutdownAll(LanguageServerWrapper.java:624)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.lambda$stop$16(LanguageServerWrapper.java:591)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Unsupported request method: shutdown
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.lambda$start$5(LanguageServerWrapper.java:341)
+	... 7 more
+2025-05-14 15:05:39,494 [  35361]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - daemon starting with 1 unfiltered editors: 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+2025-05-14 15:05:39,494 [  35361]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - daemon starting for 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+2025-05-14 15:05:39,499 [  35366]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - daemon canceled by the reason of 'Error occurred'
+2025-05-14 15:05:39,499 [  35366]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - daemon stopped with 1 unfiltered editors
+2025-05-14 15:05:39,499 [  35366]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Unfinished editor isFinishedInDumbMode=false, isCancelled=true 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+2025-05-14 15:05:39,499 [  35366]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - daemon stopped for 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo, shouldWaitForHighlighting=true, editor.shouldWaitForNextHighlighting=true
+2025-05-14 15:05:39,501 [  35368]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Analyzer status for /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+ DS: finished=false; pass statuses: 0; ; error counts: 12: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+2025-05-14 15:05:39,501 [  35368]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - File status map defensivelyMarked = false; wolfPassFinished = false; errorFound = false; dirtyScopes: ( pass: 4 -> Whole file; pass: 13 -> Whole file; pass: 8 -> Whole file; pass: 11 -> null; pass: 7 -> Whole file; pass: 16 -> null;)
+2025-05-14 15:05:39,501 [  35368]   INFO - #c.j.p.c.WaitForFinishedCodeAnalysis - Highlighting still in progress: 1458999327 class com.intellij.openapi.fileEditor.impl.text.PsiAwareTextEditorImpl Editor: file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world/app.eo
+2025-05-14 15:05:39,501 [  35368] SEVERE - #c.i.c.d.i.PassExecutorService - null
+java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2510)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.stop(LanguageServerWrapper.java:573)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.stop(LanguageServerWrapper.java:556)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.start(LanguageServerWrapper.java:264)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.getInitializedServer(LanguageServerWrapper.java:941)
+	at com.redhat.devtools.lsp4ij.LanguageServiceAccessor.lambda$getLanguageServers$9(LanguageServiceAccessor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at com.redhat.devtools.lsp4ij.LanguageServiceAccessor.lambda$getLanguageServers$11(LanguageServiceAccessor.java:354)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+2025-05-14 15:05:39,505 [  35372] SEVERE - #c.i.c.d.i.PassExecutorService - com.intellij.openapi.progress.IndicatorCancellationException
+java.lang.Throwable: Control-flow exceptions (e.g. this class com.intellij.openapi.progress.CeProcessCanceledException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:493)
+	at com.intellij.idea.IdeaLogger.doLogError(IdeaLogger.java:154)
+	at com.intellij.idea.IdeaLogger.error(IdeaLogger.java:145)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:436)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService.lambda$submit$1(PassExecutorService.java:337)
+	at com.intellij.concurrency.JobLauncherImpl$VoidForkJoinTask$1.exec(JobLauncherImpl.java:200)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: com.intellij.openapi.progress.CeProcessCanceledException: com.intellij.openapi.progress.IndicatorCancellationException
+	at com.intellij.serviceContainer.ComponentManagerImplKt$runBlockingInitialization$1.invoke(ComponentManagerImpl.kt:1692)
+	at com.intellij.serviceContainer.ComponentManagerImplKt$runBlockingInitialization$1.invoke(ComponentManagerImpl.kt:1677)
+	at com.intellij.openapi.progress.ContextKt.prepareIndicatorThreadContext$lambda$5(context.kt:109)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.silenceGlobalIndicator(CoreProgressManager.java:1027)
+	at com.intellij.openapi.progress.ContextKt.prepareIndicatorThreadContext(context.kt:107)
+	at com.intellij.openapi.progress.ContextKt.prepareThreadContext(context.kt:77)
+	at com.intellij.serviceContainer.ComponentManagerImplKt.runBlockingInitialization(ComponentManagerImpl.kt:1677)
+	at com.intellij.serviceContainer.ComponentManagerImplKt.doGetOrCreateInstanceBlocking(ComponentManagerImpl.kt:1567)
+	at com.intellij.serviceContainer.ComponentManagerImplKt.getOrCreateInstanceBlocking(ComponentManagerImpl.kt:1562)
+	at com.intellij.serviceContainer.ComponentManagerImpl.doGetService(ComponentManagerImpl.kt:746)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getService(ComponentManagerImpl.kt:690)
+	at com.intellij.ide.plugins.PluginUtil.getInstance(PluginUtil.java:13)
+	at com.intellij.diagnostic.DefaultIdeaErrorLogger.canHandle(DefaultIdeaErrorLogger.java:39)
+	at com.intellij.diagnostic.DialogAppender.queueAppend(DialogAppender.kt:76)
+	at com.intellij.diagnostic.DialogAppender.publish(DialogAppender.kt:48)
+	at java.logging/java.util.logging.Logger.log(Logger.java:983)
+	at java.logging/java.util.logging.Logger.doLog(Logger.java:1010)
+	at java.logging/java.util.logging.Logger.log(Logger.java:1121)
+	at com.intellij.idea.IdeaLogger.doLogError(IdeaLogger.java:169)
+	at com.intellij.idea.IdeaLogger.error(IdeaLogger.java:145)
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:436)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$doRun$3(PassExecutorService.java:443)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.tryRunReadAction(AnyThreadWriteThreadingSupport.kt:291)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:965)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$doRun$4(PassExecutorService.java:404)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$executeProcessUnderProgress$13(CoreProgressManager.java:660)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:735)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computeUnderProgress(CoreProgressManager.java:691)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:659)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:79)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.doRun(PassExecutorService.java:403)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$run$0(PassExecutorService.java:379)
+	at com.intellij.openapi.fileTypes.impl.FileTypeManagerImpl.cacheFileTypesInside(FileTypeManagerImpl.java:802)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.lambda$run$1(PassExecutorService.java:379)
+	at com.intellij.openapi.application.impl.AnyThreadWriteThreadingSupport.executeByImpatientReader(AnyThreadWriteThreadingSupport.kt:486)
+	at com.intellij.openapi.application.impl.ApplicationImpl.executeByImpatientReader(ApplicationImpl.java:179)
+	at com.intellij.codeInsight.daemon.impl.PassExecutorService$ScheduledPass.run(PassExecutorService.java:377)
+	at com.intellij.concurrency.JobLauncherImpl$VoidForkJoinTask$1.exec(JobLauncherImpl.java:190)
+	... 5 more
+Caused by: com.intellij.openapi.progress.IndicatorCancellationException
+	at com.intellij.openapi.progress.ContextKt$cancelWithIndicator$1.invokeSuspend(context.kt:135)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:111)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:99)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:608)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:873)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:763)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:750)
+Caused by: com.intellij.openapi.progress.ProcessCanceledException: java.util.concurrent.CancellationException
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.throwIfCanceled(AbstractProgressIndicatorBase.java:172)
+	at com.intellij.openapi.progress.util.AbstractProgressIndicatorBase.checkCanceled(AbstractProgressIndicatorBase.java:162)
+	at com.intellij.codeInsight.daemon.impl.DaemonProgressIndicator.checkCanceled(DaemonProgressIndicator.java:107)
+	at com.intellij.openapi.progress.ContextKt$cancelWithIndicator$1.invokeSuspend(context.kt:131)
+	... 8 more
+Caused by: java.util.concurrent.CancellationException
+	at java.base/java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2510)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.stop(LanguageServerWrapper.java:573)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.stop(LanguageServerWrapper.java:556)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.start(LanguageServerWrapper.java:264)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.getInitializedServer(LanguageServerWrapper.java:941)
+	at com.redhat.devtools.lsp4ij.LanguageServiceAccessor.lambda$getLanguageServers$9(LanguageServiceAccessor.java:337)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+	at com.redhat.devtools.lsp4ij.LanguageServiceAccessor.lambda$getLanguageServers$11(LanguageServiceAccessor.java:354)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+2025-05-14 15:05:39,511 [  35378]   INFO - #c.i.o.u.i.UpdateChecker - failed to load update data (java.net.ConnectException: Connection refused)
+2025-05-14 15:05:40,217 [  36084]   WARN - org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint - Unsupported request method: initialize
+2025-05-14 15:05:40,220 [  36087]   WARN - org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint - Unsupported request method: shutdown
+2025-05-14 15:05:40,221 [  36088]   WARN - com.redhat.devtools.lsp4ij.LanguageServerWrapper - Error while shutdown the language server 'eoLanguageServer'
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Unsupported request method: shutdown
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.shutdownLanguageServerInstance(LanguageServerWrapper.java:652)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.shutdownAll(LanguageServerWrapper.java:624)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.lambda$stop$16(LanguageServerWrapper.java:591)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Unsupported request method: shutdown
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.lambda$start$5(LanguageServerWrapper.java:341)
+	... 7 more
+2025-05-14 15:05:42,153 [  38020]   INFO - #c.j.r.p.c.CodeWithMeCleanup - running activity to cleanup old thin clients... Root path is '/home/gasabaev/.cache/JetBrains'. JvmStartTimeMs=1747224303034
+2025-05-14 15:05:42,154 [  38021]   INFO - #c.j.r.p.c.CodeWithMeCleanup - found 0 Code With Me client system folders to check
+2025-05-14 15:05:42,155 [  38022]   INFO - #c.j.r.p.c.CodeWithMeCleanup - found 0 Code With Me client config folders to check
+2025-05-14 15:05:42,156 [  38023]   INFO - #c.j.r.p.c.CodeWithMeCleanup - keep only [] major versions
+2025-05-14 15:05:42,156 [  38023]   INFO - #c.j.r.p.c.CodeWithMeCleanup - Starting the logs folder cleanup. Path: /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log
+2025-05-14 15:05:42,158 [  38025]   INFO - #c.i.r.OsRegistryConfigProvider - Looking for 'versionManagementEnabled' value in [/etc/xdg/JetBrains/JetBrainsClient/versionManagementEnabled, /etc/xdg/JetBrains/JetBrainsClient/config.json, /home/gasabaev/.config/JetBrains/JetBrainsClient/versionManagementEnabled, /home/gasabaev/.config/JetBrains/JetBrainsClient/config.json]
+2025-05-14 15:05:42,158 [  38025]   INFO - #c.i.r.OsRegistryConfigProvider - OS provided value for 'versionManagementEnabled' is not found
+2025-05-14 15:05:45,001 [  40868]   WARN - com.redhat.devtools.lsp4ij.LanguageServerWrapper - Timeout error while shutdown the language server 'eoLanguageServer'
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.shutdownLanguageServerInstance(LanguageServerWrapper.java:652)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.shutdownAll(LanguageServerWrapper.java:624)
+	at com.redhat.devtools.lsp4ij.LanguageServerWrapper.lambda$stop$16(LanguageServerWrapper.java:591)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+2025-05-14 15:05:45,002 [  40869] SEVERE - org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 2 path $
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 2 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1238)
+	at com.google.gson.Gson.fromJson(Gson.java:1186)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:119)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:114)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:93)
+	at org.eclipse.lsp4j.jsonrpc.json.adapters.MessageTypeAdapter.read(MessageTypeAdapter.java:56)
+	at com.google.gson.Gson.fromJson(Gson.java:1227)
+	... 11 more
+2025-05-14 15:06:06,668 [  62535]   INFO - #c.j.p.c.TakeScreenshotCommand - Capturing screenshot of class javax.swing.SwingUtilities$SharedOwnerFrame
+2025-05-14 15:06:06,669 [  62536]   INFO - #c.j.p.c.TakeScreenshotCommand - frame0 has zero size, skipping
+2025-05-14 15:06:06,669 [  62536]   INFO - #c.j.p.c.TakeScreenshotCommand - class javax.swing.SwingUtilities$SharedOwnerFrame
+2025-05-14 15:06:06,669 [  62536]   WARN - #c.j.p.c.TakeScreenshotCommand - Screenshot saved to:
+file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log/screenshots/heartbeat/frame0.png
+2025-05-14 15:06:06,669 [  62536]   INFO - #c.j.p.c.TakeScreenshotCommand - Capturing screenshot of class com.intellij.openapi.wm.impl.IdeFrameImpl
+2025-05-14 15:06:06,758 [  62625]   WARN - #c.j.p.c.TakeScreenshotCommand - Screenshot saved to:
+file:///home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log/screenshots/heartbeat/frame1.png
+2025-05-14 15:06:08,311 [  64178]   INFO - #c.i.u.g.s.GistStorageImpl - Cleaning old huge-gists dirs from [/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/system/caches/huge-gists] ...
+2025-05-14 15:06:08,312 [  64179]   INFO - #c.i.u.g.s.GistStorageImpl - Cleaning old huge-gists dirs finished
+2025-05-14 15:06:26,875 [  82742]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2025-05-14 15:06:26,905 [  82772]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2025-05-14 15:06:27,007 [  82874]   WARN - #c.i.u.x.Binding - No accessors for org.jetbrains.kotlin.cli.common.arguments.InternalArgument. This means that state class cannot be serialized properly. Please see https://jb.gg/ij-psoc
+2025-05-14 15:06:27,019 [  82886]   INFO - #c.i.c.ComponentStoreImpl - Saving appDebuggerSettings took 18 ms, FileTypeManager took 13 ms
+2025-05-14 15:06:27,049 [  82916]   INFO - #c.i.c.ComponentStoreImpl - Saving Project(name=eo-hello-world, containerState=COMPONENT_CREATED, componentStore=/home/gasabaev/gh_repos/eo-intellij-lsp-plugin/src/integrationTest/resources/test-projects/eo-hello-world)Kotlin2JvmCompilerArguments took 11 ms, RunManager took 26 ms
+2025-05-14 15:06:39,306 [  95173]   INFO - #c.j.p.c.TakeScreenshotCommand - Screenshot saved: /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log/screenshots/driverError/full_screen.png
+2025-05-14 15:06:39,514 [  95381]   INFO - #c.j.p.c.TakeScreenshotCommand - Screenshot saved: /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/log/screenshots/beforeIdeClosed/full_screen.png
+2025-05-14 15:06:39,519 [  95386]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2025-05-14 15:06:39,520 [  95387]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2025-05-14 15:06:39,549 [  95416]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {MAVEN_REPOSITORY=/home/gasabaev/.m2/repository}
+2025-05-14 15:06:39,655 [  95522]   INFO - #c.i.o.p.DumbServiceImpl - enter dumb mode [eo-hello-world]
+2025-05-14 15:06:39,680 [  95547]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Running task: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@61e6116b (reason: Push on VFS changes)
+2025-05-14 15:06:39,697 [  95564]   INFO - #c.i.o.p.MergingQueueGuiExecutor - Task finished: (dumb mode task) com.intellij.openapi.roots.impl.PushedFilePropertiesUpdaterImpl$MyDumbModeTask@61e6116b (reason: Push on VFS changes)
+2025-05-14 15:06:39,706 [  95573]   INFO - #c.i.o.p.DumbServiceImpl - exit dumb mode [eo-hello-world]
+2025-05-14 15:06:39,807 [  95674]   INFO - #c.i.u.i.PersistentDirtyFilesQueue - Dirty file ids stored. Size: 1. Index: 0 Path: /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/system/index/dirty-file-queues/9ec3c77b
+2025-05-14 15:06:39,991 [  95858]   INFO - #c.i.c.p.f.FollowMeManager - Unregister user (name: 'gasabaev', clientId: Host)
+2025-05-14 15:06:39,997 [  95864]   INFO - #c.i.o.w.i.WindowManagerImpl - === Release(true) frame on closed project ===
+2025-05-14 15:06:40,018 [  95885]   INFO - #c.i.c.b.CompilerReferenceServiceBase - backward reference index reader is closed (didn't exist)
+2025-05-14 15:06:40,018 [  95885]   INFO - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - KCRI storage is closed (didn't exist)
+2025-05-14 15:06:40,033 [  95900]   INFO - #o.j.i.BuiltInServer - web server stopped
+2025-05-14 15:06:40,033 [  95900]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2025-05-14 15:06:40,037 [  95904]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/system/index/rep.names
+2025-05-14 15:06:40,038 [  95905]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/system/index/rep.names
+2025-05-14 15:06:40,038 [  95905]   INFO - #c.i.o.f.i.FileTypeDetectionService - 96 auto-detected files. Detection took 43 ms
+2025-05-14 15:06:40,038 [  95905]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2025-05-14 15:06:40,041 [  95908]   INFO - #c.i.u.i.PersistentDirtyFilesQueue - Dirty file ids stored. Size: 2. Index: 2 Path: /home/gasabaev/gh_repos/eo-intellij-lsp-plugin/out/perf-startup/tests/IC-242.20224.300/testExample/system/index/dirty-file-ids
+2025-05-14 15:06:40,063 [  95930]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2025-05-14 15:06:40,067 [  95934]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 28ms.
+2025-05-14 15:06:40,075 [  95942]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2025-05-14 15:06:40,076 [  95943]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS closing
+2025-05-14 15:06:40,078 [  95945]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 2 ms.
+2025-05-14 15:06:40,078 [  95945]   INFO - #c.i.d.JVMResponsivenessMonitor - Sampling thread interrupted -> stop sampling
+2025-05-14 15:06:40,078 [  95945]   INFO - #c.i.d.JVMResponsivenessMonitor - Sampling thread exiting normally
+2025-05-14 15:06:40,116 [  95983]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

@@ -1,4 +1,5 @@
 import org.gradle.kotlin.dsl.from
+import org.gradle.kotlin.dsl.testRuntimeOnly
 import org.jetbrains.intellij.platform.gradle.TestFrameworkType
 
 plugins {
@@ -25,9 +26,9 @@ dependencies {
         plugin("com.redhat.devtools.lsp4ij:0.12.0")
         create(providers.gradleProperty("platformType"), providers.gradleProperty("platformVersion"))
         testFramework(TestFrameworkType.Starter)
-        testFramework(TestFrameworkType.Plugin.Java)
+//        testFramework(TestFrameworkType.Plugin.Java)
     }
-    testImplementation("junit:junit:4.13.2")
+//    testImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
      // implementation("com.github.ballerina-platform:lsp4intellij:0.96.1")
 }
 
@@ -121,6 +122,7 @@ dependencies {
     integrationTestImplementation("org.junit.jupiter:junit-jupiter:5.7.1")
     integrationTestImplementation("org.kodein.di:kodein-di-jvm:7.20.2")
     integrationTestImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.10.1")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
 
 val integrationTest = task<Test>("integrationTest") {

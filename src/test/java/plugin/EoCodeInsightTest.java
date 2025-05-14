@@ -1,41 +1,66 @@
 package plugin;
-import com.intellij.ide.plugins.PluginManager;
+
 import com.intellij.openapi.application.ApplicationManager;
-import com.intellij.openapi.fileTypes.FileTypeManager;
-import com.intellij.testFramework.fixtures.LightPlatformCodeInsightFixture4TestCase;
-import eointellijlspplugin.EoFileType;
+import com.intellij.openapi.util.Disposer;
+import com.intellij.remoteServer.runtime.ServerConnectionListener;
+import com.intellij.testFramework.HeavyPlatformTestCase;
+import com.intellij.testFramework.fixtures.*;
+import com.intellij.testFramework.fixtures.impl.CodeInsightTestFixtureImpl;
+import com.redhat.devtools.lsp4ij.LanguageServerManager;
+import com.redhat.devtools.lsp4ij.lifecycle.LanguageServerLifecycleListener;
+import com.redhat.devtools.lsp4ij.lifecycle.LanguageServerLifecycleManager;
+import org.eclipse.lsp4j.services.LanguageServer;
+import org.jetbrains.annotations.NotNull;
 import org.junit.Test;
 
-import java.util.concurrent.ExecutionException;
+public class EoCodeInsightTest extends HeavyPlatformTestCase {
 
-public class EoCodeInsightTest extends LightPlatformCodeInsightFixture4TestCase {
-
-    @Override
-    protected String getTestDataPath() {
-        return "src/test/testData";
-    }
+    private CodeInsightTestFixture myFixture;
 
     @Override
     protected void setUp() throws Exception {
         super.setUp();
 
-        FileTypeManager fileTypeManager = FileTypeManager.getInstance();
-        ApplicationManager.getApplication().runWriteAction(() ->
-                fileTypeManager.associateExtension(EoFileType.INSTANCE, "eo")
-        );
+        // Create fixture factory and builder
+        IdeaTestFixtureFactory fixtureFactory = IdeaTestFixtureFactory.getFixtureFactory();
+        TestFixtureBuilder<IdeaProjectTestFixture> fixtureBuilder = fixtureFactory.createFixtureBuilder(getName());
+        TempDirTestFixture tempDirFixture = fixtureFactory.createTempDirTestFixture();
+
+        // Create CodeInsightTestFixture
+        myFixture = fixtureFactory.createCodeInsightFixture(fixtureBuilder.getFixture(), tempDirFixture);
+        ((CodeInsightTestFixtureImpl)myFixture).canChangeDocumentDuringHighlighting(true);
+        myFixture.setUp();
+    }
+
+    @Override
+    protected void tearDown() throws Exception {
+        try {
+            if (myFixture != null) {
+                myFixture.tearDown();
+                myFixture = null;
+            }
+        } finally {
+            super.tearDown();
+        }
+    }
+
+    @Test
+    public void testAnnotator() throws InterruptedException {
+
+        myFixture.setTestDataPath(getTestDataPath());
+        myFixture.copyFileToProject("badapp.eo");
+        myFixture.configureByFile("badapp.eo");
+
+        LanguageServerLifecycleManager.getInstance(myFixture.getProject()).addLanguageServerLifecycleListener(LanguageServerLifecycleListener);
+
+        Thread.sleep(3000);
+
+        myFixture.checkHighlighting(false, false, false, true);
     }
 
 
-    @Test
-    public void testAnnotator() throws ExecutionException, InterruptedException {
-
-        myFixture.configureByFiles("badapp.eo");
-        Thread.sleep(3000);
-
-        System.out.println(myFixture.getFile().getFileType());
-
-        System.out.println(PluginManager.getLoadedPlugins().stream().map((x) -> x.getName()).toList());
-
-        myFixture.checkHighlighting(false, false, false, true);
+    @NotNull
+    protected String getTestDataPath() {
+        return "src/test/testData";
     }
 }
